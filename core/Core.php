@@ -57,9 +57,9 @@
 
 			$c = new $currentController(); //instanciando o controller da classe correspondente
 
-			echo "CurrentController: ".$currentController."<br>";
+			/*echo "CurrentController: ".$currentController."<br>";
 			echo "CurrentAction: ".$currentAction."<br>";
-			echo "Parametros: ".print_r($param, true)."<br>";
+			echo "Parametros: ".print_r($param, true)."<br>";*/
 
 			call_user_func_array(array($c, $currentAction), $param); //Chamando a função ($currentAction) do controller ($c), passando os parâmetros ($param)
 

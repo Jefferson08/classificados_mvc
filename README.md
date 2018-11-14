@@ -1,0 +1,1 @@
+# Sistema de anúncios classificados criado no curso de PHP seguindo a estrutura MVC
